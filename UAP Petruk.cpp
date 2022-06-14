@@ -6,8 +6,8 @@ using namespace std;
 
 queue<int> cart;
 string item_list[] = {"Curcuma Plus Sirup","Curfos Sirup","Vitacur Sirup","Kitavit Sirup","Hufagrip Sirup",
-		      "Imboost Force Tablet","Combantrin Sirup","Vitacimin tablet","Promag Tablet"};
-int item_price[] = {25000,162000,45500,17500,19000,50000,28000,20000,10000};
+		      "Imboost Force Tablet","Combantrin Sirup","Vitacimin tablet","Promag Tablet","Diapet"};
+int item_price[] = {25000,162000,45500,17500,19000,50000,28000,20000,10000,5000};
 
 void push()
 {
