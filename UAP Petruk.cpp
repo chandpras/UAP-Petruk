@@ -5,8 +5,8 @@
 using namespace std;
 
 queue<int> cart;
-string item_list[] = {"Mouse A1","Keyboard B2","Flashdisk C3","Monitor D4","Printer E5","Router F6","Harddisk G7","USB Port H8","Kabel I9"};
-int item_price[] = {120000,470000,95000,1600000,1150000,230000,560000,35000,22000};
+string item_list[] = {"Curcuma Plus Anak","Curfos Sirup","Vitacur Sirup","Kitavit Sirup","Hufagrip sirup","Imboost Force","Combantrin","Vitamin C","Promag"};
+int item_price[] = {25000,162000,45500,17500,19000,50000,28000,20000,10000};
 
 int main()
 {
