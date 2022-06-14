@@ -32,6 +32,21 @@ void push()
 	}
 }
 
+void pop()
+{
+	if(cart.empty())
+	{
+		system("cls");
+		cout << "* Keranjang Kosong !*" << endl;
+	}else
+	{
+		cout << "* " << item_list[cart.front()-1] << " telah dihapus dari keranjang *" << endl;
+		cart.pop();
+	}
+}
+
+
+
 int main()
 {
 	
