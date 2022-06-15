@@ -106,7 +106,7 @@ int main()
 	do
 	{
 		cout << "============================================\n";
-		cout << "\t\tAPOTEK ANTI WARAS" << endl;
+		cout << "\t     APOTEK ANTI WARAS" << endl;
 		cout << "============================================\n";
 		cout << endl;
 		cout << "List Barang : " << endl;
