@@ -71,7 +71,24 @@ void show (queue <int> cart)
 
 void checkout()
 {
-	
+	int pay;
+	if(cart.empty())
+	{
+		cout << "keranjang masih kosong";
+	}else
+	{
+		cout  << "=== " << item_list[cart.front()-1] << "\t[Rp. " << item_price[cart.front()-1] << "] ===" << endl;
+		cout << "Masukkan uang anda : ";
+		cin >> pay;
+		if(pay < item_price[cart.front()-1])
+		{
+			cout << "Uang tidak mencukupi";
+		}else if(pay >= item_price[cart.front()-1])
+		{
+			cout << "kembalian : Rp. " << pay - item_price[cart.front()-1];
+			cart.pop();
+		}
+	}
 }
 
 int main()
