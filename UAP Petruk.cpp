@@ -54,6 +54,21 @@ void clear()
 	cout << "* Keranjang Dikosongkan *";
 }
 
+void show (queue <int> cart)
+{
+	if (cart.empty())
+	{
+    		return;
+	}else
+	{
+		int x = cart.front();
+		cart.pop();
+		cout << "- " << item_list [x-1] << endl;
+		show (cart);
+		cart.push(x);
+	}
+}
+
 void checkout()
 {
 	
