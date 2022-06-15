@@ -54,6 +54,10 @@ void clear()
 	cout << "* Keranjang Dikosongkan *";
 }
 
+void checkout()
+{
+	
+}
 
 int main()
 {
