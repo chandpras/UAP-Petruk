@@ -146,6 +146,7 @@ int main()
 				break;
 				
 			case 5 :
+				system("cls");
 				checkout();
 				getch();
 				break;
@@ -158,7 +159,6 @@ int main()
 				getch();
 				break;
 			
-			 
 			default:
 			system("cls");
 			cout << "Pilihan Tidak Tersedia !";
