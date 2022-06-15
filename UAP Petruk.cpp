@@ -74,18 +74,24 @@ void checkout()
 	int pay;
 	if(cart.empty())
 	{
-		cout << "keranjang masih kosong";
+		cout << "============================================\n";
+		cout << "* Keranjang Masih Kosong ! *" << endl;
+		cout << "============================================\n";
 	}else
 	{
-		cout  << "=== " << item_list[cart.front()-1] << "\t[Rp. " << item_price[cart.front()-1] << "] ===" << endl;
-		cout << "Masukkan uang anda : ";
+		cout << "============================================\n";
+		cout << item_list[cart.front()-1] << "\t[Rp. " << item_price[cart.front()-1] << "]" << endl;
+		cout << "============================================\n";
+		cout << ">> Masukkan uang anda : ";
 		cin >> pay;
 		if(pay < item_price[cart.front()-1])
 		{
-			cout << "Uang tidak mencukupi";
+			cout << "Uang tidak mencukupi !";
 		}else if(pay >= item_price[cart.front()-1])
 		{
-			cout << "kembalian : Rp. " << pay - item_price[cart.front()-1];
+			cout << "============================================\n";
+			cout << "kembalian : Rp. " << pay - item_price[cart.front()-1] << endl;
+			cout << "============================================\n";
 			cart.pop();
 		}
 	}
@@ -110,6 +116,6 @@ int main()
 		cout << "\n4). Cek Keranjang";
 		cout << "\n5). Checkout";
 		cout << "\n6). Keluar Program";
-		cout << "\n>> Masukkan Pilihan : ";
+		cout << "\n>> Masukkan pilihan : ";
 		cin >> choose;
 }
