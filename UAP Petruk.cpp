@@ -6,7 +6,7 @@ using namespace std;
 
 queue<int> cart;
 string item_list[] = {"Bodrex Tablet","Mylanta Sirup","Ever E250 Kapsul","Siladex Sirup","Hufagrip Sirup",
-		      "Imboost Force Tablet","Combantrin Sirup","Vitacimin tablet","Promag Tablet","Diapet Kapsul"};
+		      "Imboost Force Tablet","Combantrin Sirup","Vitacimin Tablet","Promag Tablet","Diapet Kapsul"};
 int item_price[] = {9000,42000,75500,26000,19000,50000,28000,20000,10000,5000};
 
 void push()
@@ -118,7 +118,7 @@ int main()
 		cout << "\n3). Kosongkan Keranjang";
 		cout << "\n4). Cek Keranjang";
 		cout << "\n5). Checkout";
-		cout << "\n6). Keluar Program";
+		cout << "\n6). Keluar Program\n";
 		cout << "\n>> Masukkan pilihan : ";
 		cin >> choose;
 		switch(choose)
@@ -153,17 +153,17 @@ int main()
 				
 			case 6 :
 				system("cls");
-				cout << "=======================================================\n";
+				cout << "========================================================\n";
     				cout << "  TERIMA KASIH TELAH BERKUNJUNG KE APOTEK ANTI WARAS !" << endl;
-    				cout << "=======================================================\n";
+    				cout << "========================================================\n";
 				getch();
 				break;
 			
 			default:
-			system("cls");
-			cout << "Pilihan Tidak Tersedia !";
-			getch();
-			break;	
+				system("cls");
+				cout << "Pilihan Tidak Tersedia !";
+				getch();
+				break;	
 		}
 		system("cls");		
 	} while (choose != 6);
