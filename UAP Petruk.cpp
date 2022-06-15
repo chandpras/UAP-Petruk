@@ -99,7 +99,7 @@ int main()
     	cout << "============================================\n";
     	cout << endl;
     	cout << "List Barang : " << endl;
-    	for(int i = 0; i < 9; i++)
+    	for(int i = 0; i < 10; i++)
     	{
     		cout << i+1 << ". " << item_list[i] << "\t[Rp. " << item_price[i] << "]" << endl;
 		}
