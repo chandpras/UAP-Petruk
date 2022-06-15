@@ -123,8 +123,42 @@ int main()
 		cin >> choose;
 		switch(choose)
 		{
+			case 1 :
+				push();
+				getch();
+				break;
+				
+			case 2 :
+				pop();
+				getch();
+				break;
+				
+			case 3 :
+				clear();
+				getch();
+				break;
+				
+			case 4 :
+				system("cls");
+				cout << "List barang di keranjang : " << endl;
+				show(cart);
+				getch();
+				break;
+				
+			case 5 :
+				checkout();
+				getch();
+				break;
+				
+			case 6 :
+				system("cls");
+				cout << "============================================\n";
+    				cout << "  TERIMA KASIH TELAH BERKUNJUNG KE METROCOM !" << endl;
+    				cout << "============================================\n";
+				getch();
+				break;
 			
-			
+			 
 			default:
 			system("cls");
 			cout << "Pilihan Tidak Tersedia !";
