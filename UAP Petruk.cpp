@@ -152,9 +152,9 @@ int main()
 				
 			case 6 :
 				system("cls");
-				cout << "============================================\n";
-    				cout << "  TERIMA KASIH TELAH BERKUNJUNG KE METROCOM !" << endl;
-    				cout << "============================================\n";
+				cout << "=======================================================\n";
+    				cout << "  TERIMA KASIH TELAH BERKUNJUNG KE APOTEK ANTI WARAS !" << endl;
+    				cout << "=======================================================\n";
 				getch();
 				break;
 			
