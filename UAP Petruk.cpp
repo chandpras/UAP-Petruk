@@ -45,6 +45,14 @@ void pop()
 	}
 }
 
+void clear()
+{
+	while(!cart.empty())
+	{
+		cart.pop();
+	}
+	cout << "* Keranjang Dikosongkan *";
+}
 
 
 int main()
