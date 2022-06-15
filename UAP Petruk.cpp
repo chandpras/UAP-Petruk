@@ -108,7 +108,8 @@ int main()
 		cout << "\n2). Hapus Barang Dari Keranjang";
 		cout << "\n3). Kosongkan Keranjang";
 		cout << "\n4). Cek Keranjang";
-		cout << "\n5). Keluar Program";
+		cout << "\n5). Checkout";
+		cout << "\n6). Keluar Program";
 		cout << "\n>> Masukkan Pilihan : ";
 		cin >> choose;
 }
