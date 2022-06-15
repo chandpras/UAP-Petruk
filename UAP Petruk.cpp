@@ -111,16 +111,26 @@ int main()
 		for(int i = 0; i < 10; i++)
 		{
 			cout << i+1 << ". " << item_list[i] << "\t[Rp. " << item_price[i] << "]" << endl;
-			}
-			cout << "============================================\n";
-			cout << "\n1). Tambah Barang Ke Keranjang";
-			cout << "\n2). Hapus Barang Dari Keranjang";
-			cout << "\n3). Kosongkan Keranjang";
-			cout << "\n4). Cek Keranjang";
-			cout << "\n5). Checkout";
-			cout << "\n6). Keluar Program";
-			cout << "\n>> Masukkan pilihan : ";
-			cin >> choose;
-		
+		}
+		cout << "============================================\n";
+		cout << "\n1). Tambah Barang Ke Keranjang";
+		cout << "\n2). Hapus Barang Dari Keranjang";
+		cout << "\n3). Kosongkan Keranjang";
+		cout << "\n4). Cek Keranjang";
+		cout << "\n5). Checkout";
+		cout << "\n6). Keluar Program";
+		cout << "\n>> Masukkan pilihan : ";
+		cin >> choose;
+		switch(choose)
+		{
+			
+			
+			default:
+			system("cls");
+			cout << "Pilihan Tidak Tersedia !";
+			getch();
+			break;	
+		}
+		system("cls");		
 	} while (choose != 6);
 }
