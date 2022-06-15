@@ -86,7 +86,9 @@ void checkout()
 		cin >> pay;
 		if(pay < item_price[cart.front()-1])
 		{
-			cout << "Uang tidak mencukupi !";
+			cout << "============================================\n";
+			cout << "Uang tidak mencukupi !" << endl;
+			cout << "============================================\n";
 		}else if(pay >= item_price[cart.front()-1])
 		{
 			cout << "============================================\n";
